@@ -192,8 +192,8 @@ header .logo .logotext{
 }
 .rotatelogo2{
     border: 0.1vw dashed rgb(110, 112, 111);
-    height: 6.5vh;
-    width: 3.1vw;
+    height: 7vh;
+    width: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,7 +219,6 @@ header .logo .logotext{
 }
 .rotatelogo2 img{
     width: 1.5vw;
-    -webkit-animation: rotate2 10s linear infinite;
     animation: rotate2 10s linear infinite;
 }
 .upfoldunderline{
@@ -261,7 +260,7 @@ header .logo .logotext{
     display: flex;
 }
 .membersphotos img{
-    width: 3vw;
+    width: 6.2vh;
     height: 6.2vh;
     margin-left: -0.8vw;
     background-color: rgb(49, 49, 49);
@@ -274,8 +273,8 @@ header .logo .logotext{
 }
 .upfoldtext::after{
     content: "";
-    width: 5vw;
-    height: 10.7vh;
+    width: 11vh;
+    height: 11vh;
     position: absolute;
     background-image: url(images/shape-1-negetive-space.svg);
     bottom: 0;
@@ -300,12 +299,12 @@ header .logo .logotext{
 }
 .upfoldtext2::before{
     content: "";
-    width: 5vw;
-    height: 10.7vh;
+    width: 11vh;
+    height: 11vh;
     position: absolute;
     background-image: url(images/shape-1-negetive-space.svg);
     bottom: 0;
-    left: 0;
+    left: -0.04vw;
     transform: rotateY(180deg);
     z-index: 1;
 }
@@ -345,7 +344,7 @@ header .logo .logotext{
     align-items: center;
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints .pointers{
-    width: 1.6vw;
+    width: 3.4vh;
     height: 3.4vh;
     background-color: transparent;
     border: 0.1vw solid rgb(236, 248, 110);
@@ -357,7 +356,7 @@ header .logo .logotext{
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints .pointers::before{
     content: "";
-    width: 0.9vw;
+    width: 2vh;
     height: 2vh;
     background-color: rgb(236, 248, 110);
     border-radius: 2vw;
@@ -379,7 +378,7 @@ header .logo .logotext{
     align-items: center;
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints1 .pointers{
-    width: 1.6vw;
+    width: 3.4vh;
     height: 3.4vh;
     background-color: transparent;
     border: 0.1vw solid rgb(236, 248, 110);
@@ -391,7 +390,7 @@ header .logo .logotext{
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints1 .pointers::before{
     content: "";
-    width: 0.9vw;
+    width: 2vh;
     height: 2vh;
     background-color: rgb(236, 248, 110);
     border-radius: 2vw;
@@ -413,7 +412,7 @@ header .logo .logotext{
     align-items: center;
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints2 .pointers{
-    width: 1.6vw;
+    width: 3.4vh;
     height: 3.4vh;
     background-color: transparent;
     border: 0.1vw solid rgb(236, 248, 110);
@@ -425,7 +424,7 @@ header .logo .logotext{
 }
 .upfoldtext2cont .upfoldtext2img .locationpoints2 .pointers::before{
     content: "";
-    width: 0.9vw;
+    width: 2vh;
     height: 2vh;
     background-color: rgb(236, 248, 110);
     border-radius: 2vw;
@@ -488,7 +487,7 @@ header .logo .logotext{
     margin: 1vh auto;
 }
 .upfoldtext2cont .upfold2image2 .upfold2part1 .upfold2part1text .pointers{
-    width: 1.3vw;
+    width: 2.7vh;
     height: 2.7vh;
     background-color: transparent;
     border: 0.1vw solid rgb(236, 248, 110);
@@ -500,7 +499,7 @@ header .logo .logotext{
 }
 .upfoldtext2cont .upfold2image2 .upfold2part1 .upfold2part1text .pointers::before{
     content: "";
-    width: 0.55vw;
+    width: 1vh;
     height: 1vh;
     background-color: rgb(236, 248, 110);
     border-radius: 1vw;
@@ -512,7 +511,7 @@ header .logo .logotext{
 }
 .upfoldtext2cont .upfold2image2 .upfold2part1 .arrow{
     position: absolute;
-    width: 2.9vw;
+    width: 6vh;
     height: 6vh;
     border-radius: 2vw;
     border: none;
@@ -573,7 +572,7 @@ header .logo .logotext{
     height: 5vh;
 }
 .upfoldtext2cont .upfold2image2 .upfold2part2 .socialmedia .socialmediaicon{
-    width: 2.5vw;
+    width: 5.5vh;
     height: 5.5vh;
     background: transparent;
     border: 1px solid rgb(236, 248, 110);
@@ -720,8 +719,8 @@ header .logo .logotext{
     background-size: 0.82vw;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1.3vw;
-    height: 2vh;
+    width: 2.3vh;
+    height: 2.3vh;
     margin-left: 0.6vw;
 }
 .s2buttons .s2btn2{
@@ -736,7 +735,7 @@ header .logo .logotext{
 }
 .s2buttons .s2btn2::before{
     content: "";
-    width: 0.7vw;
+    width: 1.2vh;
     height: 1.2vh;
     border-radius: 1vw;
     background-color: rgb(236, 248, 110);
@@ -914,7 +913,7 @@ header .logo .logotext{
     transition: 1s;
 }
 .section4 table tr td .arrowbtn{
-    width: 4.4vw;
+    width: 9vh;
     height: 9vh;
     border-radius: 3vw;
     border: 0.1vw dashed transparent;
@@ -922,8 +921,8 @@ header .logo .logotext{
     transition: 1s, 1s;
 }
 .section4 table tr td .arrowbtn img{
-    width: 3vw;
-    height: 3vh;
+    width: 3.3vh;
+    height: 3.3vh;
     transition: 1s;
 }
 .section4 table tr td .arrowbtn:hover{
@@ -973,7 +972,7 @@ header .logo .logotext{
     justify-content: end;
 }
 .s5arrowbtn{
-    width: 3.3vw;
+    width: 7.1vh;
     height: 7.1vh;
     border-radius: 3vw;
     border: none;
@@ -1014,7 +1013,7 @@ header .logo .logotext{
 }
 .s5detailspart2 .explorebtn::after{
     content: "";
-    width: 1vw;
+    width: 5vh;
     height: 5vh;
     background-image: url(images/arrow-right-line.svg);
     background-size: 0.6vw;
